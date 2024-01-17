@@ -31,12 +31,12 @@
 
 <script lang="ts">
 import { ControlElement } from "@jsonforms/core";
-import { defineComponent } from "vue";
 import {
   rendererProps,
   RendererProps,
   useJsonFormsEnumControl,
 } from "@jsonforms/vue";
+import { defineComponent } from "vue";
 import { ControlWrapper, DisabledIconFocus } from "@jsonforms/vue-vuetify";
 import { useVuetifyControl } from "@jsonforms/vue-vuetify";
 
