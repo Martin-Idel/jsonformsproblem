@@ -1,9 +1,10 @@
-import "@testing-library/jest-dom";
+import "@testing-library/jest-dom/vitest";
 import TestSelectFieldRenderer from "../testcomponents/TestSelectFieldRenderer.vue";
 import { createVuetify } from "vuetify";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
 import { render } from "@testing-library/vue";
+import { describe, it, expect } from "vitest";
 
 describe("The SelectFieldRenderer component", () => {
   it("displays selected value", async () => {
